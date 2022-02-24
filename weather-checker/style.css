@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fa-magnifying-glass {
+    height:1.5em;
+    width: 1.5em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(34, 34, 34);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 110%;
+}
+
+.card {
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 25px;
+    background-color: #0e0c7094;
+    color: rgb(215, 215, 215);
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    outline: none;
+    background: #0e0ada94;
+    color: rgb(215, 215, 215);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+button:hover {
+    background: #4a47ee94;
+}
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #0e0ada94;
+    color: rgb(215, 215, 215);
+    font-family: inherit;
+    font-size: 110%;
+    width: calc(100% - 100px);
+}
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.icon-block {
+    display: flex;
+    align-items: center;
+}
