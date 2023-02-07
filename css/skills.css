@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #ff8800;
+    color: #ffffff;
+}
+
+.card:hover{
+    transition: ease-in-out 0.5s;
+    color: #000000;
+}
+
+.skill-icon{
+    font-size: 40px;
+}
+
+#testimonials {
+    padding-bottom: 100px;
+    background: linear-gradient(
+        45deg,
+        rgba(168, 7, 7, 0.9) 0%,
+        rgba(223, 155, 10, 0.9) 100%),
+        url(images/img_bg_main.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.send-button {
+    padding: 7px;
+    background: none;
+    border-radius: 10px;
+    border: 1px solid #888888;
+}
+
+.send-button:hover{
+    transition: ease-in-out 0.5s;
+    background-color: #ff8800;
+    color: #ffffff;
+    border: 1px solid #ff8800;
+}
+
+.footer-icon{
+    font-size: 2rem;
+    color: #ff8800;
+}
+
+.footer-icon:hover{
+    transition: ease-in-out 1s;
+    color: #ffffff;
+}
